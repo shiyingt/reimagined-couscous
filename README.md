@@ -12,5 +12,5 @@ sudo python monitor-svc-log.py&
 2. Recorded various videos at different fps.
 to start recording a video on an rpi camera, 
 ```
-raspivid -t 305000 -w 640 -h 480 -fps 30 -b 1200000 -p 0,0,640,480 -o pivideo.h264
+raspivid -t 305000 -w 640 -h 480 -fps 30 -b 200000 -p 0,0,640,480 -o pivideo.h264
 ```
